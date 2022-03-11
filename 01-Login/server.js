@@ -21,3 +21,6 @@ process.on("SIGINT", function() {
 });
 
 module.exports = app;
+
+// Listen on port 3000
+app.listen(3000, () => console.log("TheCaddieMaster running on port 3000"));
