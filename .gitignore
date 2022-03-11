@@ -1,3 +1,6 @@
+# RAG: explicitly IGNORE auth_config.json - that contains PRIVATE KEYS. 11-Mar-2022
+auth_config.json
+
 # Logs
 logs
 *.log
